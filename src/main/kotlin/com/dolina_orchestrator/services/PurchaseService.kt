@@ -3,7 +3,6 @@ package com.dolina_orchestrator.services
 import com.dolina_orchestrator.dtos.StartFlowPurchaseDto
 import com.dolina_orchestrator.dtos.requests.RequestValidateItemDto
 import com.dolina_orchestrator.dtos.requests.RequestValidateUserDto
-import org.springframework.messaging.handler.annotation.Payload
 import org.springframework.stereotype.Service
 
 @Service
