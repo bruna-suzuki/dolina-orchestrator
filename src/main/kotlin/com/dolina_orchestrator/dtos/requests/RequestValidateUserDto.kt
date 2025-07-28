@@ -5,5 +5,5 @@ import java.util.UUID
 
 data class RequestValidateUserDto(
     val globalUserId: UUID,
-    val itemPrice: BigDecimal
+    val amount: BigDecimal
 )
