@@ -11,5 +11,4 @@ interface ItemValidatorClient {
 
     @PostMapping("/validation")
     fun itemValidator(@RequestBody payload: RequestValidateItemDto): ResponseValidateItemDto?
-
 }
