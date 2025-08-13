@@ -6,7 +6,7 @@ import org.springframework.cloud.openfeign.FeignClient
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
 
-    @FeignClient(name = "user-validator-client", url = "http://localhost:8081/user-validator")
+@FeignClient(name = "user-validator-client", url = "http://localhost:8081/user-validator")
 interface UserValidatorClient {
 
     @PostMapping("/validation")
