@@ -16,6 +16,6 @@ class PurchaseItemController(private val purchaseService: PurchaseService) {
     @PostMapping
     fun purchaseItem(@RequestBody payload: StartFlowPurchaseDto): ResponseEntity<String> {
         purchaseService.purchaseItem(payload)
-        return ResponseEntity.status(HttpStatus.OK).body("Ebaa")
+        return ResponseEntity.status(HttpStatus.OK).body("Funcionou!!")
     }
 }
